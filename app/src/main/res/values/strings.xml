@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Formulary</string>
+    <string name="date">Date</string>
+    <string name="sex">Sex</string>
+    <string name="civil_status">Civil Status</string>
+    <string-array name="civil_status_options">
+        <item />
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+</resources>
