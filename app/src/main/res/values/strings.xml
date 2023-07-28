@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Formulary</string>
+    <string name="app_name">Formulary</string>
     <string name="date">Birth date</string>
     <string name="sex">Sex</string>
     <string-array name="sex_options">
