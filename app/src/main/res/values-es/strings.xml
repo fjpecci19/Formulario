@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date">Fecha de nacimiento</string>
+    <string name="sex">Sexo</string>
+    <string-array name="sex_options">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string name="civil_status">Estado Civil</string>
+    <string-array name="civil_status_options">
+        <item>Soltero</item>
+        <item>Casado</item>
+    </string-array>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="email">Email</string>
+    <string name="tin">RUC</string>
+    <string name="next">SIGUIENTE</string>
+</resources>

@@ -1,11 +1,18 @@
 <resources>
-    <string name="app_name">Formulary</string>
-    <string name="date">Date</string>
+    <string name="app_name" translatable="false">Formulary</string>
+    <string name="date">Birth date</string>
     <string name="sex">Sex</string>
+    <string-array name="sex_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
     <string name="civil_status">Civil Status</string>
     <string-array name="civil_status_options">
-        <item />
         <item>Single</item>
         <item>Married</item>
     </string-array>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="tin">TIN</string>
+    <string name="next">NEXT</string>
 </resources>
