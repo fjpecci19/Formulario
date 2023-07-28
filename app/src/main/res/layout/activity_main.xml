@@ -175,10 +175,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tin_edit"
                 android:layout_marginTop="15dp"
+                android:backgroundTint="#FFC300"
                 android:text="@string/next"
                 android:textColor="@color/black"
-                android:backgroundTint="#FFC300"
-                tools:ignore="VisualLintButtonSize" />
+                tools:ignore="VisualLintButtonSize,TouchTargetSizeCheck" />
 
         </RelativeLayout>
     </ScrollView>
