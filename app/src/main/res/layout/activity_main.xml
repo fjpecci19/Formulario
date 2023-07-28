@@ -17,7 +17,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp"
+            android:padding="15dp"
             android:background="@color/background"
             tools:context=".MainActivity">
 
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/titulo"
                 android:textColor="@color/white"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/date"
                 android:textSize="25sp"
                 />
@@ -48,6 +48,7 @@
                 android:layout_height="50dp"
                 android:layout_below="@id/date"
                 android:backgroundTint="@color/amarelo"
+                android:layout_marginTop="10dp"
                 android:textStyle="normal"
                 android:text="@string/date"
                 android:textColor="@color/black"
@@ -61,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:layout_below="@+id/date_edit"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/sex"
                 android:textSize="25sp"
                 />
@@ -82,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:layout_below="@+id/sex_edit"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/civil_status"
                 android:textSize="25sp"
                 />
@@ -103,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:layout_below="@+id/civil_status_edit"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/phone_number"
                 android:textSize="25sp"
                 />
@@ -144,10 +145,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/mail_edit"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:textColor="@color/white"
                 android:text="@string/tin"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <EditText
                 android:id="@+id/tin_edit"
@@ -163,7 +164,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tin_edit"
-                android:layout_marginTop="18dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/next"
                 android:textColor="@color/black"
                 android:backgroundTint="#FFC300"

@@ -10,6 +10,7 @@ import android.widget.Spinner
 import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var datebirth: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -34,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         spinnerstatus.adapter = adapterstatus
 
-        val datebirth = findViewById<Button>(R.id.date_edit)
+        datebirth = findViewById(R.id.date_edit)
 
         datebirth.setOnClickListener {
             showDatePicker()
@@ -48,8 +49,9 @@ class MainActivity : AppCompatActivity() {
 
         val datePickerDialog = DatePickerDialog(
             this,
-            DatePickerDialog.OnDateSetListener { _, yearSelected, monthOfYear, dayOfMonth ->
+            { _, yearSelected, monthOfYear, dayOfMonth ->
                 val selectedDate = "$dayOfMonth/${monthOfYear + 1}/$yearSelected"
+                datebirth.text = selectedDate
             },
             year,
             month,
