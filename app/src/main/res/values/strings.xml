@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Formulary</string>
     <string name="date">Birth date</string>
+    <string name="select">Select</string>
     <string name="sex">Sex</string>
     <string-array name="sex_options">
         <item>Male</item>
@@ -13,7 +14,10 @@
         <item>Widower/Widow</item>
     </string-array>
     <string name="phone_number">Phone Number</string>
+    <string name="enter_number">Enter your phone number</string>
     <string name="email">Email</string>
+    <string name="enter_email">Enter your email</string>
     <string name="tin">TIN</string>
+    <string name="enter_tin">Enter your TIN</string>
     <string name="next">NEXT</string>
 </resources>

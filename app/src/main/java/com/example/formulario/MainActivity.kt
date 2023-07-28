@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
         datebirth.setOnClickListener {
             showDatePicker()
         }
+
+
     }
     private fun showDatePicker() {
         val calendar = Calendar.getInstance()

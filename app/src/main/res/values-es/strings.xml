@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Formulario</string>
     <string name="date">Fecha de nacimiento</string>
+    <string name="select">Seleccionar</string>
     <string name="sex">Sexo</string>
     <string-array name="sex_options">
         <item>Masculino</item>
@@ -14,7 +15,10 @@
         <item>Viudo/Viuda</item>
     </string-array>
     <string name="phone_number">Número de teléfono</string>
+    <string name="enter_number">Ingresa tu número de teléfono</string>
     <string name="email">Email</string>
+    <string name="enter_email">Ingresa tu email</string>
     <string name="tin">RUC</string>
+    <string name="enter_tin">Ingresa tu RUC</string>
     <string name="next">SIGUIENTE</string>
 </resources>

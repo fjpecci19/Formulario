@@ -50,7 +50,7 @@
                 android:backgroundTint="@color/amarelo"
                 android:layout_marginTop="10dp"
                 android:textStyle="normal"
-                android:text="@string/date"
+                android:text="@string/select"
                 android:textColor="@color/black"
                 android:textSize="22sp"
                 android:layout_gravity="start"
@@ -116,8 +116,10 @@
                 android:layout_below="@id/number"
                 android:layout_marginTop="10dp"
                 android:inputType="number"
-                android:hint="@string/phone_number"
-                />
+                android:hint="@string/enter_number"
+                android:textColorHint="@color/white"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
 
             <TextView
                 android:id="@+id/mail"
@@ -137,8 +139,10 @@
                 android:layout_below="@+id/mail"
                 android:inputType="textEmailAddress"
                 android:layout_marginTop="10dp"
-                android:hint="@string/email"
-                />
+                android:hint="@string/enter_email"
+                android:textColorHint="@color/white"
+                android:autofillHints=""
+                tools:ignore="VisualLintTextFieldSize" />
 
             <TextView
                 android:id="@+id/tin"
@@ -157,8 +161,10 @@
                 android:layout_below="@+id/tin"
                 android:inputType="number"
                 android:layout_marginTop="10dp"
-                android:hint="@string/tin"
-                android:importantForAutofill="no" />
+                android:hint="@string/enter_tin"
+                android:textColorHint="@color/white"
+                android:importantForAutofill="no"
+                tools:ignore="VisualLintTextFieldSize" />
 
             <Button
                 android:layout_width="match_parent"
@@ -168,7 +174,7 @@
                 android:text="@string/next"
                 android:textColor="@color/black"
                 android:backgroundTint="#FFC300"
-                />
+                tools:ignore="VisualLintButtonSize" />
 
         </RelativeLayout>
     </ScrollView>
