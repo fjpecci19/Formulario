@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
                 number.setText("")
                 email.setText("")
                 tin.setText("")
+                isDateSelected = false
             }
         }
     }
