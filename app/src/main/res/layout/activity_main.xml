@@ -42,12 +42,25 @@
                 android:textSize="25sp"
                 />
 
+            <Button
+                android:id="@+id/date_edit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/date"
+                android:backgroundTint="@color/amarelo"
+                android:textStyle="normal"
+                android:text="@string/date"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_gravity="start"
+                app:cornerRadius="@dimen/cardview_compat_inset_shadow" />
+
             <TextView
                 android:id="@+id/sex"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:layout_below="@+id/date"
+                android:layout_below="@+id/date_edit"
                 android:layout_marginTop="20dp"
                 android:text="@string/sex"
                 android:textSize="25sp"
@@ -60,6 +73,7 @@
                 android:layout_below="@+id/sex"
                 android:layout_marginTop="10sp"
                 android:entries="@array/sex_options"
+                android:backgroundTint="@color/amarelo"
                 />
 
             <TextView
@@ -80,6 +94,7 @@
                 android:layout_below="@id/civil_status"
                 android:layout_marginTop="10sp"
                 android:entries="@array/civil_status_options"
+                android:backgroundTint="@color/amarelo"
                 />
 
             <TextView
