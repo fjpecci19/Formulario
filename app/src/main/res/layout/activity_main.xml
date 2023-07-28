@@ -73,9 +73,9 @@
                 android:layout_height="48dp"
                 android:layout_below="@+id/sex"
                 android:layout_marginTop="10sp"
-                android:entries="@array/sex_options"
                 android:backgroundTint="@color/amarelo"
-                />
+                android:entries="@array/sex_options"
+                tools:ignore="DuplicateSpeakableTextCheck" />
 
             <TextView
                 android:id="@+id/civil_status"
@@ -115,11 +115,12 @@
                 android:layout_height="48dp"
                 android:layout_below="@id/number"
                 android:layout_marginTop="10dp"
-                android:inputType="number"
-                android:hint="@string/enter_number"
-                android:textColorHint="@color/white"
                 android:autofillHints=""
-                tools:ignore="VisualLintTextFieldSize" />
+                android:hint="@string/enter_number"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris"
+                tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
 
             <TextView
                 android:id="@+id/mail"
@@ -137,12 +138,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_below="@+id/mail"
-                android:inputType="textEmailAddress"
                 android:layout_marginTop="10dp"
-                android:hint="@string/enter_email"
-                android:textColorHint="@color/white"
                 android:autofillHints=""
-                tools:ignore="VisualLintTextFieldSize" />
+                android:hint="@string/enter_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris"
+                tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
 
             <TextView
                 android:id="@+id/tin"
@@ -159,14 +161,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_below="@+id/tin"
-                android:inputType="number"
                 android:layout_marginTop="10dp"
                 android:hint="@string/enter_tin"
-                android:textColorHint="@color/white"
                 android:importantForAutofill="no"
-                tools:ignore="VisualLintTextFieldSize" />
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gris"
+                tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
 
             <Button
+                android:id="@+id/button_next"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tin_edit"

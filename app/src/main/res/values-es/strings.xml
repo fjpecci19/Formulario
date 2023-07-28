@@ -10,15 +10,19 @@
     </string-array>
     <string name="civil_status">Estado Civil</string>
     <string-array name="civil_status_options">
-        <item>Soltero</item>
-        <item>Casado</item>
-        <item>Viudo/Viuda</item>
+        <item>Soltero/a</item>
+        <item>Casado/a</item>
+        <item>Viudo/a</item>
     </string-array>
     <string name="phone_number">Número de teléfono</string>
-    <string name="enter_number">Ingresa tu número de teléfono</string>
+    <string name="enter_number">0932372312</string>
     <string name="email">Email</string>
-    <string name="enter_email">Ingresa tu email</string>
+    <string name="enter_email">asdf@gmail.com</string>
     <string name="tin">RUC</string>
-    <string name="enter_tin">Ingresa tu RUC</string>
+    <string name="enter_tin">4213761–2</string>
     <string name="next">SIGUIENTE</string>
+    <string name="datecheck">Selecciona una fecha</string>
+    <string name="numbercheck">El número debe empezar con 09 y tener 10 dígitos</string>
+    <string name="emailinccorrect">Formato incorrecto de email</string>
+    <string name="tincheck">Formato incorrecto de RUC, debe ser: 1234567–8</string>
 </resources>

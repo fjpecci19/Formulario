@@ -14,10 +14,14 @@
         <item>Widower/Widow</item>
     </string-array>
     <string name="phone_number">Phone Number</string>
-    <string name="enter_number">Enter your phone number</string>
+    <string name="enter_number">0932372312</string>
     <string name="email">Email</string>
-    <string name="enter_email">Enter your email</string>
+    <string name="enter_email">asdf@gmail.com</string>
     <string name="tin">TIN</string>
-    <string name="enter_tin">Enter your TIN</string>
+    <string name="enter_tin">4213761–2</string>
     <string name="next">NEXT</string>
+    <string name="datecheck">Select a date</string>
+    <string name="numbercheck">Number must start with 09 and have 10 digits</string>
+    <string name="emailinccorrect">Incorrect email format</string>
+    <string name="tincheck">Incorrect RUC format, it should be: 1234567–8</string>
 </resources>
