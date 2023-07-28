@@ -60,9 +60,6 @@
                 android:layout_below="@+id/sex"
                 android:layout_marginTop="10sp"
                 android:entries="@array/sex_options"
-                android:textColor="@color/black"
-                android:background="@color/amarelo"
-                android:popupBackground="@color/amarelo"
                 />
 
             <TextView
@@ -83,7 +80,6 @@
                 android:layout_below="@id/civil_status"
                 android:layout_marginTop="10sp"
                 android:entries="@array/civil_status_options"
-                android:textColor="#000000"
                 />
 
             <TextView

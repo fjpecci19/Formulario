@@ -11,6 +11,7 @@
     <string-array name="civil_status_options">
         <item>Soltero</item>
         <item>Casado</item>
+        <item>Viudo/Viuda</item>
     </string-array>
     <string name="phone_number">Número de teléfono</string>
     <string name="email">Email</string>

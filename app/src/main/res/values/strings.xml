@@ -10,6 +10,7 @@
     <string-array name="civil_status_options">
         <item>Single</item>
         <item>Married</item>
+        <item>Widower/Widow</item>
     </string-array>
     <string name="phone_number">Phone Number</string>
     <string name="email">Email</string>
